@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\modelview\\testviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\modelview\\testviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\views\\testview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\views\\testview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\helpers\\networker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\helpers\\networker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\datatransferobjects\\server\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|solutionrelative:datatransferobjects\\server\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\datatransferobjects\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|solutionrelative:datatransferobjects\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\data\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\data\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\services\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\services\\converter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\views\\testview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\views\\testview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\views\\mainview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\views\\placeholdertextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\views\\placeholdertextbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\views\\placeholdertextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\views\\placeholdertextbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1A378A-A1EF-44A1-94D5-DAAE203FFF94}|SpoofTest\\SpoofTest.csproj|solutionrelative:spooftest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ServicesRealization\\Networker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ViewModels\\ChatViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\submitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\submitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\spooftestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\spooftestcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Converter.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Services\\Converter.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Services\\Converter.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Services\\Converter.cs",
+              "RelativeToolTip": "SpoofTestApi\\Services\\Converter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:44:58.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Test.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\Test.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Test.cs",
+              "RelativeToolTip": "DataTransferObjects\\Test.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:06:24.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Data\\Test.cs",
+              "RelativeDocumentMoniker": "SpoofTest\\Data\\Test.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Data\\Test.cs",
+              "RelativeToolTip": "SpoofTest\\Data\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:20:03.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\ModelView\\TestViewModel.cs",
+              "RelativeDocumentMoniker": "SpoofTest\\ModelView\\TestViewModel.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\ModelView\\TestViewModel.cs",
+              "RelativeToolTip": "SpoofTest\\ModelView\\TestViewModel.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwBAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:13:23.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Controllers\\Test.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Controllers\\Test.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Controllers\\Test.cs",
+              "RelativeToolTip": "SpoofTestApi\\Controllers\\Test.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwDAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:44:06.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Networker.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Helpers\\Networker.cs",
+              "RelativeDocumentMoniker": "SpoofTest\\Helpers\\Networker.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Helpers\\Networker.cs",
+              "RelativeToolTip": "SpoofTest\\Helpers\\Networker.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAApwHAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:01:21.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlaceHolderTextBox.xaml",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\PlaceHolderTextBox.xaml",
+              "RelativeDocumentMoniker": "SpoofTest\\Views\\PlaceHolderTextBox.xaml",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\PlaceHolderTextBox.xaml",
+              "RelativeToolTip": "SpoofTest\\Views\\PlaceHolderTextBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T19:39:13.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\TestView.xaml.cs",
+              "RelativeDocumentMoniker": "SpoofTest\\Views\\TestView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\TestView.xaml.cs",
+              "RelativeToolTip": "SpoofTest\\Views\\TestView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:27:59.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Server\\Test.cs",
+              "RelativeDocumentMoniker": "DataTransferObjects\\Server\\Test.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Server\\Test.cs",
+              "RelativeToolTip": "DataTransferObjects\\Server\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:06:23.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "SpoofTest\\Views\\MainView.xaml",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\MainView.xaml",
+              "RelativeToolTip": "SpoofTest\\Views\\MainView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T19:38:42.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\TestView.xaml",
+              "RelativeDocumentMoniker": "SpoofTest\\Views\\TestView.xaml",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\TestView.xaml",
+              "RelativeToolTip": "SpoofTest\\Views\\TestView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T19:39:26.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\MainView.xaml.cs",
+              "RelativeDocumentMoniker": "SpoofTest\\Views\\MainView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\MainView.xaml.cs",
+              "RelativeToolTip": "SpoofTest\\Views\\MainView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:38:58.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlaceHolderTextBox.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\PlaceHolderTextBox.xaml.cs",
+              "RelativeDocumentMoniker": "SpoofTest\\Views\\PlaceHolderTextBox.xaml.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\PlaceHolderTextBox.xaml.cs",
+              "RelativeToolTip": "SpoofTest\\Views\\PlaceHolderTextBox.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:38:59.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\App.xaml",
+              "RelativeDocumentMoniker": "SpoofTest\\App.xaml",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\App.xaml",
+              "RelativeToolTip": "SpoofTest\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T19:43:03.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Networker.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ServicesRealization\\Networker.cs",
+              "RelativeDocumentMoniker": "..\\..\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ServicesRealization\\Networker.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ServicesRealization\\Networker.cs",
+              "RelativeToolTip": "..\\..\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ServicesRealization\\Networker.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAANoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:03:07.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Test.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Test.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Test.cs",
+              "RelativeToolTip": "SpoofTestApi\\Entities\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:22:51.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "SpoofTest\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\MainWindow.xaml.cs",
+              "RelativeToolTip": "SpoofTest\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:18:20.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChatViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ViewModels\\ChatViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ViewModels\\ChatViewModel.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ViewModels\\ChatViewModel.cs",
+              "RelativeToolTip": "..\\..\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ViewModels\\ChatViewModel.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFAAAACpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T19:11:27.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SpoofTestContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\SpoofTestContext.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\SpoofTestContext.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\SpoofTestContext.cs",
+              "RelativeToolTip": "SpoofTestApi\\Entities\\SpoofTestContext.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:41:16.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Submitted.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Submitted.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Submitted.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Submitted.cs",
+              "RelativeToolTip": "SpoofTestApi\\Entities\\Submitted.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:41:12.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "SpoofTestApi\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:22:56.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Question.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Question.cs",
+              "RelativeToolTip": "SpoofTestApi\\Entities\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:22:45.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Answer.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Answer.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Answer.cs",
+              "RelativeToolTip": "SpoofTestApi\\Entities\\Answer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:22:39.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Program.cs",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Program.cs",
+              "RelativeToolTip": "SpoofTestApi\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T18:20:11.028Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

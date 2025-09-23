@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "s8DgPNgFvLw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\SpoofTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nimda\\.nuget\\packages\\communitytoolkit.mvvm\\8.4.0\\communitytoolkit.mvvm.8.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

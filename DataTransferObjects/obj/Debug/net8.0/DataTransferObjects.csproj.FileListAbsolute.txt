@@ -1,0 +1,11 @@
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\bin\Debug\net8.0\DataTransferObjects.deps.json
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\bin\Debug\net8.0\DataTransferObjects.dll
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\bin\Debug\net8.0\DataTransferObjects.pdb
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\DataTransferObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\DataTransferObjects.AssemblyInfoInputs.cache
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\DataTransferObjects.AssemblyInfo.cs
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\DataTransferObjects.csproj.CoreCompileInputs.cache
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\DataTransferObjects.dll
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\refint\DataTransferObjects.dll
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\DataTransferObjects.pdb
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\DataTransferObjects\obj\Debug\net8.0\ref\DataTransferObjects.dll
