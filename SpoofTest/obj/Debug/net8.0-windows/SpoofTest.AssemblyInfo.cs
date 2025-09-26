@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpoofTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b6d827533939eb2fafcfdc88a4e5d52b003e6f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpoofTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpoofTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

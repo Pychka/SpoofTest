@@ -173,3 +173,4 @@ C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\SpoofTestApi\obj\Debug\net8.0\Spoo
 C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\SpoofTestApi\obj\Debug\net8.0\ref\SpoofTestApi.dll
 C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\SpoofTestApi\bin\Debug\net8.0\DataTransferObjects.dll
 C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\SpoofTestApi\bin\Debug\net8.0\DataTransferObjects.pdb
+C:\Users\Nimda\Desktop\SpoofProject\SpoofTest\SpoofTestApi\obj\Debug\net8.0\SpoofTestApi.sourcelink.json
