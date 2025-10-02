@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\pages\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\pages\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\submitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\submitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\controllers\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\datatransferobjects\\server\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\datatransferobjects\\server\\scores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|solutionrelative:datatransferobjects\\server\\scores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\spooftestapi\\entities\\submitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D457B2E2-59E2-4A4F-AA92-2C62E8DE4235}|SpoofTestApi\\SpoofTestApi.csproj|solutionrelative:spooftestapi\\entities\\submitted.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03C87CBB-7D44-47D8-B5F5-4194F63EAD7C}|DataTransferObjects\\DataTransferObjects.csproj|c:\\users\\nimda\\desktop\\spoofproject\\spooftest\\datatransferobjects\\server\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -120,11 +124,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Pages\\script.js",
+              "RelativeDocumentMoniker": "SpoofTestApi\\Pages\\script.js",
+              "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Pages\\script.js",
+              "RelativeToolTip": "SpoofTestApi\\Pages\\script.js",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwFsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-10-02T03:07:27.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Answer.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Server\\Answer.cs",
               "RelativeDocumentMoniker": "DataTransferObjects\\Server\\Answer.cs",
@@ -136,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Scores.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Server\\Scores.cs",
               "RelativeDocumentMoniker": "DataTransferObjects\\Server\\Scores.cs",
@@ -148,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Question.cs",
               "RelativeDocumentMoniker": "DataTransferObjects\\Question.cs",
@@ -160,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Test.cs",
               "RelativeDocumentMoniker": "DataTransferObjects\\Test.cs",
@@ -172,20 +189,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Controllers\\Test.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Controllers\\Test.cs",
               "ToolTip": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Controllers\\Test.cs",
               "RelativeToolTip": "SpoofTestApi\\Controllers\\Test.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwEIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T18:44:06.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Server\\Test.cs",
               "RelativeDocumentMoniker": "DataTransferObjects\\Server\\Test.cs",
@@ -197,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Submitted.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Submitted.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Submitted.cs",
@@ -205,11 +222,12 @@
               "RelativeToolTip": "SpoofTestApi\\Entities\\Submitted.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T18:41:12.989Z"
+              "WhenOpened": "2025-09-23T18:41:12.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Program.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Program.cs",
@@ -222,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\Server\\Question.cs",
               "RelativeDocumentMoniker": "DataTransferObjects\\Server\\Question.cs",
@@ -234,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "TestViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\ModelView\\TestViewModel.cs",
               "RelativeDocumentMoniker": "SpoofTest\\ModelView\\TestViewModel.cs",
@@ -242,11 +260,12 @@
               "RelativeToolTip": "SpoofTest\\ModelView\\TestViewModel.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAIwFkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T19:13:23.893Z"
+              "WhenOpened": "2025-09-23T19:13:23.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Data\\Test.cs",
               "RelativeDocumentMoniker": "SpoofTest\\Data\\Test.cs",
@@ -258,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Networker.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Helpers\\Networker.cs",
               "RelativeDocumentMoniker": "SpoofTest\\Helpers\\Networker.cs",
@@ -270,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Converter.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Services\\Converter.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Services\\Converter.cs",
@@ -282,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "PlaceHolderTextBox.xaml",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\PlaceHolderTextBox.xaml",
               "RelativeDocumentMoniker": "SpoofTest\\Views\\PlaceHolderTextBox.xaml",
@@ -293,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "TestView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\TestView.xaml.cs",
               "RelativeDocumentMoniker": "SpoofTest\\Views\\TestView.xaml.cs",
@@ -305,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MainView.xaml",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\MainView.xaml",
               "RelativeDocumentMoniker": "SpoofTest\\Views\\MainView.xaml",
@@ -316,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "TestView.xaml",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\TestView.xaml",
               "RelativeDocumentMoniker": "SpoofTest\\Views\\TestView.xaml",
@@ -327,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MainView.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\MainView.xaml.cs",
               "RelativeDocumentMoniker": "SpoofTest\\Views\\MainView.xaml.cs",
@@ -339,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "PlaceHolderTextBox.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\Views\\PlaceHolderTextBox.xaml.cs",
               "RelativeDocumentMoniker": "SpoofTest\\Views\\PlaceHolderTextBox.xaml.cs",
@@ -351,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\App.xaml",
               "RelativeDocumentMoniker": "SpoofTest\\App.xaml",
@@ -362,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Networker.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ServicesRealization\\Networker.cs",
               "RelativeDocumentMoniker": "..\\..\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ServicesRealization\\Networker.cs",
@@ -374,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Test.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Test.cs",
@@ -386,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SpoofTest\\MainWindow.xaml.cs",
@@ -398,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ChatViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ViewModels\\ChatViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\Projects\\SpoofMess\\SpoofMessenger\\Objects\\ViewModels\\ChatViewModel.cs",
@@ -410,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "SpoofTestContext.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\SpoofTestContext.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\SpoofTestContext.cs",
@@ -422,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\BaseEntity.cs",
@@ -434,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Question.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Question.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Question.cs",
@@ -446,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Answer.cs",
               "DocumentMoniker": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\SpoofTestApi\\Entities\\Answer.cs",
               "RelativeDocumentMoniker": "SpoofTestApi\\Entities\\Answer.cs",

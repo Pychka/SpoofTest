@@ -85,10 +85,11 @@ async function submitTest() {
             body: JSON.stringify({
                 testId: currentTest.id,
                 answers: answers,
-                lastName: lastName,
-                patronymic: patronymic,
-                name: name,
-                group: group
+                lastName: lastName.value,
+                patronymic: patronymic.value,
+                name: name.value,
+                group: group.value,
+                sessionId: "1109"
             })
         });
 
