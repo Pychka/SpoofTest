@@ -5,6 +5,42 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Test/Score": {
+      "get": {
+        "tags": [
+          "Test"
+        ],
+        "parameters": [
+          {
+            "name": "password",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "group",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Test/CreateTest": {
       "post": {
         "tags": [

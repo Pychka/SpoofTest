@@ -1,0 +1,83 @@
+.dav{
+    display: inline-block;
+}
+
+#blob-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+#question-container, #blob-container{
+    border: 0.3vh solid #eeeeee;
+    border-radius: 2vh;
+    padding: 1vh 2vw;
+    box-shadow: 0 0 1.5vh rgba(0, 0, 0, 0.5);
+    align-content: center;
+    justify-content: center;
+    height: fit-content;
+    background: linear-gradient(to top, #92cef5, #f2cef5) ;
+}
+
+#question-container{
+    display: none;
+    width: 50vw;
+}
+
+h1{
+    text-align: center;
+}
+
+#blob-container *{
+    margin: 1vh 1vw;
+}
+
+button{
+    background: linear-gradient(to bottom, 	#d2e3eb, #a2cef5);
+    margin-left: auto;
+    width: 25%;
+}
+
+input::placeholder{
+    color: #8e8dc4
+}
+
+input{
+    display: block;
+    background: linear-gradient(to bottom, #e2cef5, #c9a4d7);
+    padding: 0.5vh 1vw;
+    color: #f9feff;
+}
+
+button, input{
+    border: 0.2vh solid #f1fafb;
+    border-radius: 1vw;
+    font-size: 3vh;
+}
+
+input:hover{
+    background: linear-gradient(to bottom, #d2cef5, #ffb5a8);
+}
+
+input:focus{
+    background: linear-gradient(to top, #d2cef5, #ffd7d0);
+}
+
+button:hover{
+    background: linear-gradient(to top, #d2e3eb, #a2cef5);
+}
+
+button:active{
+    background: linear-gradient(to top, #e2cef5, #ffb5a8);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(to top, #e2cef5, #8e8dc4 );
+}

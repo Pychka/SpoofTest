@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SpoofTest</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div id="blob-container">
+        <h1>Fill form</h1>
+        <input type="text" placeholder="Name" id="name">
+        <input type="text" placeholder="LastName" id="last-name">
+        <input type="text" placeholder="Patronymic" id="patronymic">
+        <input type="text" placeholder="Group" id="group">
+        <input type="text" placeholder="Test code" id="test-id">
+        <button onclick="GoClick()">Go</button>
+    </div>
+    <div id="question-container">
+        <div class="header">
+            <h1 id="title">{Title}</h1>
+            <progress id="progressbar"></progress>
+            <b id="progresstext"></b>
+        </div>
+        <div id="questions">
+
+        </div>
+        <div class="inline">
+            <button onclick="goPrevious()" id="left">&lt;</button>
+            <button onclick="goNext()" id="right">&gt;</button>
+            <button id="send-button" onclick="submitTest()" style="display: none;">send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

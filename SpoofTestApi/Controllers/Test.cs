@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using DataTransferObjects.Server;
+using Microsoft.AspNetCore.Mvc;
 using SpoofTestApi.Entities;
 using SpoofTestApi.Services;
 
@@ -11,6 +12,23 @@ public class TestController(IRepository<Test> test, IRepository<Submitted> submi
     private readonly IRepository<Test> testRepository = test;
     private readonly IRepository<Submitted> submittedRepository = submittedRepository;
     private readonly IRepository<Answer> answerRepository = answerRepository;
+    [HttpGet("Score")]
+    public async Task<IActionResult> Score(string password, int id, string? group)
+    {
+        if (password != "supersecurity") return BadRequest();
+        var test = await testRepository.GetByIdAsync(id);
+        if (test is null)
+            return NotFound("Test is not found");
+        ICollection<Submitted> submitted = group is null ? test.Submitteds : [.. test.Submitteds.Where(x => x.Group == group)];
+        return Ok(test.Submitteds.Select(x => new Score()
+        {
+            Result = x.Result,
+            Group = x.Group,
+            LastName = x.LastName,
+            Name = x.Name,
+            Patronymic = x.Patronymic,
+        }));
+    }
     [HttpPost("CreateTest")]
     public async Task<IActionResult> ImportTestAsync(TestDTOS t, string password)
     {

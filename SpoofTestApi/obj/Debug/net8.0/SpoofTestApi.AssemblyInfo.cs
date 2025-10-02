@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpoofTestApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+98e5ca2077a61e81ccf84d56103cdaf82fa33b99")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+360de951ec248cc33d0eb95d760c738378307f2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpoofTestApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpoofTestApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
