@@ -8,6 +8,8 @@ let progresstext = document.getElementById("progresstext");
 let blob = document.getElementById("blob-container");
 let question = document.getElementById("question-container");
 let sendButton = document.getElementById("send-button");
+let right = document.getElementById("right");
+let left = document.getElementById("left");
 let currentTest
 let testId = document.getElementById("test-id");
 
@@ -17,7 +19,7 @@ async function GoClick(){
         alert("Укажите все поля!");
         return;
     }
-    var answer = await fetch(`https://localhost:7007/api/Test?id=${testId.value}`);
+    var answer = await fetch(`https://192.168.2.97:7007/api/Test?id=${testId.value}`);
     if(!answer.ok)
     {
 
@@ -34,8 +36,11 @@ async function GoClick(){
 function goNext() {
     if (currentTest && currentTest.nextQuestion()){
         renderTest(currentTest);
-        if(currentTest.currentQuestionIndex+1 == currentTest.questions.length)
-            sendButton.style.display = 'block';
+        left.disabled = false;
+    }
+    if (currentTest.currentQuestionIndex+1 == currentTest.questions.length) {
+        sendButton.disabled = false;
+        right.disabled = true;
     }
 }
 
@@ -43,7 +48,11 @@ function goPrevious() {
     if (currentTest && currentTest.previousQuestion())
     {
         renderTest(currentTest);
-        sendButton.style.display = 'none';
+        sendButton.disabled = true;
+        right.disabled = false;
+    }
+    if (currentTest.currentQuestionIndex == 0) {
+        left.disabled = true;
     }
 }
 
@@ -73,18 +82,18 @@ async function submitTest() {
     if (!currentTest) return;
 
     try {
-        document.getElementById("left").style.display = 'none';
-        document.getElementById("right").style.display = 'none';
+        right.disabled = true;
+        left.disabled = true;
         const answers = currentTest.getAnswersForSubmission();
         
-        const response = await fetch('https://localhost:7007/api/Test', {
+        const response = await fetch('https://192.168.2.97:7007/api/Test', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
                 testId: currentTest.id,
-                answers: answers,
+                questions: answers,
                 lastName: lastName.value,
                 patronymic: patronymic.value,
                 name: name.value,
@@ -92,6 +101,7 @@ async function submitTest() {
                 sessionId: "1109"
             })
         });
+        alert(`Ваш результат: ${await response.json()}`);
 
     } catch (error) {
         console.error('Ошибка:', error);
@@ -158,7 +168,7 @@ class Test {
     getAnswersForSubmission() {
         return this.questions.map(q => ({
             questionId: q.id,
-            answerId: q.selectedAnswerId
+            answerId: q.selectedAnswerId == undefined ? 0 : q.selectedAnswerId
         }));
     }
 }

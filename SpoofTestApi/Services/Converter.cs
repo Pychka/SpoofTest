@@ -10,7 +10,7 @@ public static class Converter
         {
             Id = test.Id,
             Title = test.Title,
-            LimitMinutes = test.Limit ?? 0,
+            LimitMinutes = test.LimitMinutes ?? 0,
             Questions = [.. test.Questions.Select(
                 x => new QuestionDTO()
                 {

@@ -20,10 +20,11 @@ public partial class TestViewModel : ObservableObject
     [ObservableProperty]
     private Visibility _visible = Visibility.Collapsed;
     public int Corrects = 0;
+    public bool canWork;
     [RelayCommand]
     private void SelectAnswer(Answer? answer)
     {
-        if (answer is null || CurrentQuestion is null)
+        if (canWork && answer is null || CurrentQuestion is null)
             return;
         if(CurrentQuestion.UserAnswer is not null)
             CurrentQuestion.UserAnswer.Selected = false;
@@ -67,7 +68,7 @@ public partial class TestViewModel : ObservableObject
         if (CurrentQuestionNumber == Test.Questions.Count-1)
             Visible = Visibility.Collapsed;
     }
-    public async void Start(string key, string name, string lastName, string patronymic, string group)
+    public async Task Start(string key, string name, string lastName, string patronymic, string group)
     {
         Test = await networker.GetWorkAsync(key);
         if (Test is null)
@@ -77,16 +78,20 @@ public partial class TestViewModel : ObservableObject
         Test.Patronymic = patronymic;
         Test.Group = group;
         Test.SessionId = "";
+        CurrentTime = Test.Limit;
         CurrentQuestion = Test.Questions[CurrentQuestionNumber - 1];
         Timer();
     }
 
     private async void Timer()
     {
-        while (CurrentTime < Test.Limit)
+        canWork = true;
+        while (CurrentTime > TimeSpan.Zero)
         {
-            CurrentTime += TimeSpan.FromSeconds(1);
+            CurrentTime -= TimeSpan.FromSeconds(1);
             await Task.Delay(1000);
         }
+        canWork = false;
+        await CheckWork();
     }
 }

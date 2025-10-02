@@ -12,6 +12,12 @@ public class TestController(IRepository<Test> test, IRepository<Submitted> submi
     private readonly IRepository<Test> testRepository = test;
     private readonly IRepository<Submitted> submittedRepository = submittedRepository;
     private readonly IRepository<Answer> answerRepository = answerRepository;
+    [HttpGet("All")]
+    public async Task<IActionResult> GetAll()
+    {
+        return Ok((await testRepository.GetAll()).Select(x => new TestInfo() {  Id = x.Id, Title = x.Title }));
+    }
+
     [HttpGet("Score")]
     public async Task<IActionResult> Score(string password, int id, string? group)
     {
@@ -36,7 +42,7 @@ public class TestController(IRepository<Test> test, IRepository<Submitted> submi
         Test test = new()
         {
             Title = t.Title,
-            Limit = t.Limit,
+            LimitMinutes = t.Limit,
             Questions = [.. t.Questions.Select(x => new Question()
             {
                 Title = x.Title,
@@ -60,7 +66,7 @@ public class TestController(IRepository<Test> test, IRepository<Submitted> submi
         return test is null ? NotFound() : Ok(Converter.ConvertTest(test));
     }
     [HttpPost]
-    public async Task<IActionResult> SendAnswer([FromBody] DataTransferObjects.TestDTO answer)
+    public async Task<IActionResult> SendAnswer([FromBody]DataTransferObjects.TestDTO answer)
     {
         Submitted submitted = new()
         {
@@ -80,7 +86,7 @@ public class TestController(IRepository<Test> test, IRepository<Submitted> submi
             if (correct is null || correct.QuestionId != q.QuestionId)
                 continue;
             submitted.Answers.Add(correct);
-            if (correct.IsCorrect.Value is true)
+            if (correct.IsCorrect!.Value is true)
                 submitted.Result++;
         }
         await submittedRepository.AddAsync(submitted);

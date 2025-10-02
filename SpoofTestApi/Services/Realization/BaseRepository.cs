@@ -29,4 +29,9 @@ public class BaseRepository<T>(SpoofTestContext context) : IRepository<T> where 
     {
         return await set.FirstOrDefaultAsync(x => x.Id == id);
     }
+
+    public async Task<List<T>> GetAll()
+    {
+        return await set.ToListAsync();
+    }
 }

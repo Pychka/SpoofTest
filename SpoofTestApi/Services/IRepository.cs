@@ -11,4 +11,5 @@ public interface IRepository<T> where T : BaseEntity
     public Task DeleteAsync(T entity);
 
     public Task AddAsync(T entity);
+    public Task<List<T>> GetAll();
 }

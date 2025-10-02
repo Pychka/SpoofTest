@@ -33,6 +33,16 @@
   },
   {
     "ContainingType": "SpoofTestApi.Controllers.TestController",
+    "Method": "GetAll",
+    "RelativePath": "api/Test/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SpoofTestApi.Controllers.TestController",
     "Method": "ImportTestAsync",
     "RelativePath": "api/Test/CreateTest",
     "HttpMethod": "POST",

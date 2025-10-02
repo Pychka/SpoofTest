@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj": {}
+    "C:\\Users\\studkab10a\\Desktop\\A\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj": {
+    "C:\\Users\\studkab10a\\Desktop\\A\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj",
+        "projectUniqueName": "C:\\Users\\studkab10a\\Desktop\\A\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj",
         "projectName": "DataTransferObjects",
-        "projectPath": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj",
-        "packagesPath": "C:\\Users\\Nimda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nimda\\Desktop\\SpoofProject\\SpoofTest\\DataTransferObjects\\obj\\",
+        "projectPath": "C:\\Users\\studkab10a\\Desktop\\A\\SpoofTest\\DataTransferObjects\\DataTransferObjects.csproj",
+        "packagesPath": "C:\\Users\\studkab10a\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\studkab10a\\Desktop\\A\\SpoofTest\\DataTransferObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nimda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\studkab10a\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

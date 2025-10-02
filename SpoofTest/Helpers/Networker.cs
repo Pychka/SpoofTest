@@ -14,7 +14,15 @@ namespace SpoofTest.Helpers;
 
 internal class Networker
 {
-    HttpClient client = new();
+    HttpClientHandler handler = new()
+    {
+        ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true
+    };
+    HttpClient client;
+    public Networker()
+    {
+        client = new(handler);
+    }
     private readonly JsonSerializerOptions Options = new()
     {
         PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
@@ -46,7 +54,7 @@ internal class Networker
         {
             if(count < 5)
             {
-                var response = await client.GetAsync($"https://localhost:7007/api/Test?id={key}");
+                var response = await client.GetAsync($"https://192.168.2.97:7007/api/Test?id={key}");
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
                     var test = Desirialize<DataTransferObjects.Server.TestDTOAnswer>(await response.Content.ReadAsStringAsync());
@@ -85,7 +93,7 @@ internal class Networker
             if(count < 5)
             {
                 TestDTO result = ConvertTest(test);
-                var answer = await client.PostAsync("https://localhost:7007/api/Test", new StringContent(Serialize(result), Encoding.UTF8, "application/json"));
+                var answer = await client.PostAsync("https://192.168.2.97:7007/api/Test", new StringContent(Serialize(result), Encoding.UTF8, "application/json"));
                 count = 0;
                 return answer.StatusCode == System.Net.HttpStatusCode.OK ? await answer.Content.ReadAsStringAsync() : "Сервер не отвечает";
             }

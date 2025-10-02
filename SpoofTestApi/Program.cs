@@ -12,7 +12,8 @@ public class Program
         var builder = WebApplication.CreateBuilder(new WebApplicationOptions { WebRootPath = "Pages" });
 
         builder.Services.AddControllers();
-        builder.Services.AddDbContext<SpoofTestContext>(s => s.UseLazyLoadingProxies().UseSqlServer("DefaultConnection"));
+        var config = new ConfigurationBuilder().SetBasePath(AppDomain.CurrentDomain.BaseDirectory).AddJsonFile("appsettings.json").Build();
+        builder.Services.AddDbContext<SpoofTestContext>(s => s.UseLazyLoadingProxies().UseSqlServer(config.GetConnectionString("CollageConnection")));
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));

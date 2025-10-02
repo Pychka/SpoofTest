@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Test/All": {
+      "get": {
+        "tags": [
+          "Test"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Test/Score": {
       "get": {
         "tags": [
@@ -322,7 +334,7 @@
             "type": "string",
             "nullable": true
           },
-          "limit": {
+          "limitMinutes": {
             "type": "integer",
             "format": "int32",
             "nullable": true

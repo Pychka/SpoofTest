@@ -21,9 +21,6 @@ public partial class SpoofTestContext : DbContext
 
     public virtual DbSet<Test> Tests { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=.;Database=SpoofTest;Trusted_Connection=True;TrustServerCertificate=True");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Answer>(entity =>

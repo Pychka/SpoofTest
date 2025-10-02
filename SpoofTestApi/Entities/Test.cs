@@ -4,7 +4,7 @@ public partial class Test : BaseEntity
 {
     public string Title { get; set; } = null!;
 
-    public int? Limit { get; set; }
+    public int? LimitMinutes { get; set; }
 
     public virtual ICollection<Question> Questions { get; set; } = [];
 
