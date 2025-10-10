@@ -1,0 +1,448 @@
+{
+  "title": "Последние несколько пар",
+  "limit": 20,
+  "questions": [
+    {
+      "title": "& это",
+      "answers": [
+        {"title": "Логическое «И»", "isCorrect": true},
+        {"title": "Логическое «Исключающее ИЛИ»", "isCorrect": false},
+        {"title": "Логическое «ИЛИ»", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "| это",
+      "answers": [
+        {"title": "Логическое «И»", "isCorrect": false},
+        {"title": "Логическое «Исключающее ИЛИ»", "isCorrect": false},
+        {"title": "Логическое «ИЛИ»", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "^ это",
+      "answers": [
+        {"title": "Логическое «И»", "isCorrect": false},
+        {"title": "Логическое «Исключающее ИЛИ»", "isCorrect": true},
+        {"title": "Логическое «ИЛИ»", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какая логическая операция вернётся в исходное значение при повторном применении?",
+      "answers": [
+        {"title": "|", "isCorrect": false},
+        {"title": "&", "isCorrect": false},
+        {"title": "^", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "Как можно определить чётность числа в десятичной системе имея его двоичный код.",
+      "answers": [
+        {"title": "По остатку от деления на 2", "isCorrect": false},
+        {"title": "По числу в десятичной системе счисления", "isCorrect": false},
+        {"title": "По младшему биту", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "Что обозначают +V на принципиальной схеме",
+      "answers": [
+        {"title": "Входную точку", "isCorrect": false},
+        {"title": "Источник питания", "isCorrect": true
+        {"title": "Минус", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Формула мощности",
+      "answers": [
+        {"title": "P = I * U", "isCorrect": true},
+        {"title": "U = I / R", "isCorrect": false},
+        {"title": "I = R * U", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Закон Ома",
+      "answers": [
+        {"title": "R = U * P", "isCorrect": false},
+        {"title": "I = U / R", "isCorrect": true},
+        {"title": "U = I", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "В чём главная проблема сложения/вычитания чисел с плавающей точкой?",
+      "answers": [
+        {"title": "Невозможность работы с отрицательными числами", "isCorrect": false},
+        {"title": "Потеря точности при выравнивании порядков, если числа сильно различаются", "isCorrect": true},
+        {"title": "Очень медленная скорость выполнения", "isCorrect": false},
+        {"title": "Невозможность представить результат", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Чему равно ~n для целого положительного числа n в дополнительном коде?",
+      "answers": [
+        {"title": "n - 1", "isCorrect": false},
+        {"title": "n + 1", "isCorrect": false},
+        {"title": "n^-2", "isCorrect": false},
+        {"title": "-n - 1", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "Чему равно ~n для целого отрицательного числа n в дополнительном коде?",
+      "answers": [
+        {"title": "-n - 1", "isCorrect": false},
+        {"title": "n + 1", "isCorrect": true},
+        {"title": "n^-2", "isCorrect": false},
+        {"title": "n - 1", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что отвечает за знак у числа в двоичной системе счисления?",
+      "answers": [
+        {"title": "Младший бит", "isCorrect": false},
+        {"title": "Старший бит", "isCorrect": true},
+        {"title": "Остаток от деления на 2", "isCorrect": false},
+        {"title": "Сумма битов", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какие числа могут быть представлены некорректно в компьютере?",
+      "answers": [
+        {"title": "Целые", "isCorrect": false},
+        {"title": "Отрицательные", "isCorrect": false},
+        {"title": "Комплексные", "isCorrect": false},
+        {"title": "Вещественные", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "Что значит переполнение разрядной сетки?",
+      "answers": [
+        {"title": "Ошибка при делении на ноль.", "isCorrect": false},
+        {"title": "Потеря точности при вычислениях с плавающей точкой.", "isCorrect": false},
+        {"title": "Ситуация, когда результат операции не помещается в отведённое количество разрядов.", "isCorrect": true},
+        {"title": "Ошибка в синтаксисе программы.", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какой операции следует избегать при сравнении вещественных чисел?",
+      "answers": [
+        {"title": "Проверки на null.", "isCorrect": false},
+        {"title": "Проверки на неравенство (!=).", "isCorrect": false},
+        {"title": "Прямого сравнения на точное равенство (==) из-за ошибок округления.", "isCorrect": true},
+        {"title": "Сравнения «больше» (>) или «меньше» (<).", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что такое дополнительный код числа?",
+      "answers": [
+        {"title": "Способ представления только положительных чисел", "isCorrect": false},
+        {"title": "Резервная копия числа в памяти.", "isCorrect": false},
+        {"title": "Метод шифрования данных для повышения безопасности.", "isCorrect": false},
+        {"title": "Способ представления целых чисел со знаком, при котором операция вычитания сводится к сложению.", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "Что означает «побитовая операция»?",
+      "answers": [
+        {"title": "Операция, выполняемая над числами как над единым целым", "isCorrect": false},
+        {"title": "Операция, применяемая к каждому биту числа независимо", "isCorrect": true},
+        {"title": "Операция, изменяющая только знак числа", "isCorrect": false},
+        {"title": "Операция деления числа на биты", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что такое «электрический ток»?",
+      "answers": [
+        {"title": "Разность потенциалов", "isCorrect": false},
+        {"title": "Сопротивление материала", "isCorrect": false},
+        {"title": "Упорядоченное движение заряженных частиц", "isCorrect": true},
+        {"title": "Работа по перемещению заряда", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "В чём измеряется сопротивление?",
+      "answers": [
+        {"title": "Вольты (В)", "isCorrect": false},
+        {"title": "Омы (Ом)", "isCorrect": true},
+        {"title": "Амперы (А)", "isCorrect": false},
+        {"title": "Ватты (Вт)", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что описывает закон Ома?",
+      "answers": [
+        {"title": "Мощность электрического тока", "isCorrect": false},
+        {"title": "Зависимость сопротивления от температуры", "isCorrect": false},
+        {"title": "Правила последовательного соединения", "isCorrect": false},
+        {"title": "Зависимость между напряжением, током и сопротивлением", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "Что такое «последовательное соединение»?",
+      "answers": [
+        {"title": "Соединение, при котором напряжение на всех элементах одинаково", "isCorrect": false},
+        {"title": "Соединение, при котором ток через все элементы одинаков, а напряжения складываются", "isCorrect": true},
+        {"title": "Соединение, при котором сопротивления складываются как обратные величины", "isCorrect": false},
+        {"title": "Соединение только для источников питания", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что такое «параллельное соединение»?",
+      "answers": [
+        {"title": "Соединение, при котором напряжение на всех элементах одинаково, а токи складываются", "isCorrect": true},
+        {"title": "Соединение, при котором ток через все элементы одинаков", "isCorrect": false},
+        {"title": "Соединение, при котором общее сопротивление равно сумме сопротивлений", "isCorrect": false},
+        {"title": "Соединение, которое не описывается законом Ома", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какая операция используется для сброса (установки в 0) конкретного бита?",
+      "answers": [
+        {"title": "OR с маской, где нужный бит = 0", "isCorrect": false},
+        {"title": "AND с маской, где нужный бит = 0 (а все остальные = 1)", "isCorrect": true},
+        {"title": "XOR с маской, где нужный бит = 1", "isCorrect": false},
+        {"title": "NOT", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какая операция используется для инверсии (переключения) конкретного бита?",
+      "answers": [
+        {"title": "AND с маской", "isCorrect": false},
+        {"title": "OR с маской", "isCorrect": false},
+        {"title": "XOR с маской, где нужный бит = 1", "isCorrect": true},
+        {"title": "NOT", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Для чего используются битовые маски?",
+      "answers": [
+        {"title": "Для умножения чисел", "isCorrect": false},
+        {"title": "Для выборочной установки, сброса или проверки конкретных битов в числе", "isCorrect": true},
+        {"title": "Для изменения знака числа", "isCorrect": false},
+        {"title": "Для представления чисел с плавающей точкой", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что такое «мантисса» в формате с плавающей точкой?",
+      "answers": [
+        {"title": "Значимая часть числа, определяющая его точность", "isCorrect": true},
+        {"title": "Показатель степени", "isCorrect": false},
+        {"title": "Знак числа", "isCorrect": false},
+        {"title": "Основание системы счисления", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что такое «порядок» (Exponent) в формате с плавающей точкой?",
+      "answers": [
+        {"title": "Значимая часть числа", "isCorrect": false},
+        {"title": "Степень, в которую возводится основание", "isCorrect": true},
+        {"title": "Смещение для представления отрицательных порядков", "isCorrect": false},
+        {"title": "Количество значащих цифр", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что такое «нормализованная форма» числа с плавающей точкой?",
+      "answers": [
+        {"title": "Форма с нулевой мантиссой", "isCorrect": false},
+        {"title": "Форма с максимальным порядком", "isCorrect": false},
+        {"title": "Форма, в которой мантисса находится в фиксированном диапазоне (например, [1, 2) для двоичной системы)", "isCorrect": true},
+        {"title": "Форма, используемая только для десятичных чисел", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Для чего используется «смещение» порядка?",
+      "answers": [
+        {"title": "Для увеличения диапазона мантиссы", "isCorrect": false},
+        {"title": "Для представления отрицательных порядков без использования знакового бита", "isCorrect": true},
+        {"title": "Для ускорения операций сложения", "isCorrect": false},
+        {"title": "Для округления чисел", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что такое «денормализованные числа»?",
+      "answers": [
+        {"title": "Числа с очень большим порядком", "isCorrect": false},
+        {"title": "Числа, которые для мини-представления используют ненормализованную форму, заполняя промежуток между нулём и наименьшим нормализованным числом", "isCorrect": true},
+        {"title": "Числа с нулевой мантиссой", "isCorrect": false},
+        {"title": "Числа с отрицательной мантиссой", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Чему равна сила тока в цепи с напряжением 12 В и сопротивлением 4 Ом?",
+      "answers": [
+        {"title": "3 А", "isCorrect": true},
+        {"title": "48 А", "isCorrect": false},
+        {"title": "0.33 А", "isCorrect": false},
+        {"title": "4 A", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какая мощность выделяется на резисторе 10 Ом при токе 0.5 А?",
+      "answers": [
+        {"title": "5 Вт", "isCorrect": false},
+        {"title": "20 Вт", "isCorrect": false},
+        {"title": "2.5 Вт", "isCorrect": true},
+        {"title": "0.05 Вт", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Два резистора 6 Ом и 3 Ом соединены последовательно. Чему равно общее сопротивление?",
+      "answers": [
+        {"title": "2 Ом", "isCorrect": false},
+        {"title": "9 Ом", "isCorrect": true},
+        {"title": "18 Ом", "isCorrect": false},
+        {"title": "1.5 Ом", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Два резистора 6 Ом и 3 Ом соединены параллельно. Чему равно общее сопротивление?",
+      "answers": [
+        {"title": "9 Ом", "isCorrect": false},
+        {"title": "3 Ом", "isCorrect": false},
+        {"title": "2 Ом", "isCorrect": true},
+        {"title": "4.5 Ом", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Если в цепи с напряжением 5В сила тока равна 2А, чему равно сопротивление?",
+      "answers": [
+        {"title": "10 Ом", "isCorrect": false},
+        {"title": "2.5 Ом", "isCorrect": true},
+        {"title": "0.4 Ом", "isCorrect": false},
+        {"title": "7 Ом", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какая маска нужна, чтобы установить 3-й бит в единицу?",
+      "answers": [
+        {"title": "0000 0100", "isCorrect": false},
+        {"title": "0000 1000", "isCorrect": true},
+        {"title": "0000 0010", "isCorrect": false},
+        {"title": "0000 0001", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Число 13. Какая операция и с какой маской очистит 2-й бит (сделает его 0)?",
+      "answers": [
+        {"title": "OR с маской 1011", "isCorrect": false},
+        {"title": "AND с маской 1011", "isCorrect": true},
+        {"title": "XOR с маской 0100", "isCorrect": false},
+        {"title": "AND с маской 0100", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Число 10. Что получится в результате XOR с маской 15?",
+      "answers": [
+        {"title": "10", "isCorrect": false},
+        {"title": "15", "isCorrect": false},
+        {"title": "5", "isCorrect": true},
+        {"title": "20", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что сделает операция (x << 1) с целым числом x?",
+      "answers": [
+        {"title": "Разделит x на 2", "isCorrect": false},
+        {"title": "Умножит x на 2", "isCorrect": true},
+        {"title": "Установит младший бит в 1", "isCorrect": false},
+        {"title": "Инвертирует x", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Что сделает операция (x >> 1) с беззнаковым целым числом x?",
+      "answers": [
+        {"title": "Умножит x на 2", "isCorrect": false},
+        {"title": "Разделит x на 2", "isCorrect": true},
+        {"title": "Инвертирует биты x", "isCorrect": false},
+        {"title": "Установит старший бит в 1", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какое из следующих чисел является чётным? (Дано двоичное представление)",
+      "answers": [
+        {"title": "1100 1100", "isCorrect": true},
+        {"title": "1111 0001", "isCorrect": false},
+        {"title": "0011 1101", "isCorrect": false},
+        {"title": "1010 0101", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какое из следующих чисел является нечётным? (Дано двоичное представление)",
+      "answers": [
+        {"title": "1100 1100", "isCorrect": false},
+        {"title": "1010 1010", "isCorrect": false},
+        {"title": "1111 0001", "isCorrect": true},
+        {"title": "1000 1000", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Чему равно ~-42?",
+      "answers": [
+        {"title": "-43", "isCorrect": false},
+        {"title": "42", "isCorrect": false},
+        {"title": "41", "isCorrect": true},
+        {"title": "22", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какое максимальное беззнаковое число в двоичной системе счисления можно уместить в 8 битах?",
+      "answers": [
+        {"title": "63", "isCorrect": false},
+        {"title": "511", "isCorrect": false},
+        {"title": "127", "isCorrect": false},
+        {"title": "255", "isCorrect": true}
+      ]
+    },
+    {
+      "title": "Чему равно ~23?",
+      "answers": [
+        {"title": "-24", "isCorrect": true},
+        {"title": "46", "isCorrect": false},
+        {"title": "-23", "isCorrect": false},
+        {"title": "-11.5", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Для хранения целого числа со знаком в дополнительном коде отводится 16 бит. Каков диапазон?",
+      "answers": [
+        {"title": "0 до 65535", "isCorrect": false},
+        {"title": "-32768 до 32767", "isCorrect": true},
+        {"title": "-4096 до 4095", "isCorrect": false},
+        {"title": "-65536 до 65535", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Число -10 представлено в 8-битном дополнительном коде. Чему оно равно?",
+      "answers": [
+        {"title": "1111 0101", "isCorrect": false},
+        {"title": "1111 0110", "isCorrect": true},
+        {"title": "0000 1010", "isCorrect": false},
+        {"title": "1000 1010", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какое напряжение будет на резисторе 100 Ом при токе 50 мА?",
+      "answers": [
+        {"title": "0.5 В", "isCorrect": false},
+        {"title": "2 В", "isCorrect": false},
+        {"title": "5 В", "isCorrect": true},
+        {"title": "50 В", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Два резистора по 1 кОм соединены параллельно. Чему равно общее сопротивление?",
+      "answers": [
+        {"title": "2 кОм", "isCorrect": false},
+        {"title": "500 Ом", "isCorrect": true},
+        {"title": "1 кОм", "isCorrect": false},
+        {"title": "0 Ом", "isCorrect": false}
+      ]
+    },
+    {
+      "title": "Какой ток потребляет лампочка мощностью 60 Вт от сети 120 В?",
+      "answers": [
+        {"title": "0.5 А", "isCorrect": true},
+        {"title": "5 А", "isCorrect": false},
+        {"title": "2 А", "isCorrect": false},
+        {"title": "1 А", "isCorrect": false}
+      ]
+    }
+  ]
+}

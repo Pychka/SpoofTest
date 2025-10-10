@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SpoofTestMain</title>
+    <link rel="stylesheet" href="./mainTeacherStyles.css">
+</head>
+<body>
+    <header>
+        <button>Настройки</button>
+        <button onclick="showTasks()">Мои тесты</button>
+    </header>
+    <div class="main-container">
+        <div>
+            <span>
+                <a href="https://localhost:7007/api/Test/One?id=${test.id}">${test.title}</a>
+                <a class="teacher-link">:${test.questions.count()}/${test.limitMinutes}min</a>
+            </span>
+            <p>Description</p>
+        </div>
+    </div>
+    <script type="module" src="./mainStudentScript.js"></script>
+</body>
+</html>

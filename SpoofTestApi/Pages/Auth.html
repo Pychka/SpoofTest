@@ -1,0 +1,21 @@
+<!DOCTYPE HTML5>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SpoofTest</title>
+        <link rel="stylesheet" href="./Styles.css">
+    </head>
+    <body>
+        <form id="loginForm">
+            <input type="text" placeholder="Login" name="login">
+            <input type="password" placeholder="Password" name="password">
+            <button style="background: none; border: none;" type="button" onclick="change(this)">Я преподаватель</button>
+            <button type="submit">Войти</button>
+        </form>
+        <div id="error-message">
+            <img width="20px" height="20px" src="./warning.png" alt="warning">
+            <i id="message"></i>
+        </div>
+        <script src="./auth.js"></script>
+    </body>
+</html>
