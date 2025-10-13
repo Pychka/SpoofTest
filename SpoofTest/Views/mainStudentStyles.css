@@ -1,0 +1,100 @@
+header{
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #4c4e7370;
+    padding: 1vh 1vw;
+}
+
+header button{
+    margin: 0.5vh 1vw;
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+header button:hover{
+    text-decoration: underline;
+}
+
+header button:active{
+    font-weight: bold;
+}
+
+#main-container{
+    overflow-y: auto;
+    padding: 1vh 1vw;
+    box-sizing: border-box;
+}
+
+.teacher-link{
+    margin-left: auto;
+}
+
+#error-message{
+    position: fixed;
+    bottom: 1vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    display: none;
+    max-width: 30%;
+    padding: 1%;
+    border-radius: 2vh;
+    box-shadow: 0 0 2vh rgba(0, 0, 0, 0.5);
+}
+
+
+.clickable-div{
+    transition: background 0.5s ease;
+}
+
+#test-container, .clickable-div, #result-container{
+    border: 0.3vh solid #eeeeee;
+    border-radius: 2vh;
+    padding: 1vh 2vw;
+    margin: 1vh 1vw;
+    box-shadow: 0 0 1.5vh rgba(0, 0, 0, 0.5);
+    height: fit-content;
+    background: linear-gradient(to top, #92cef5, #f2cef5) ;
+}
+
+#test-container, #result-container{
+    display: none;
+    font-weight: bold;
+    flex-direction: column;
+}
+#result-container{
+    align-content: center;
+}
+
+#test-container > .navigation{
+    display: inline-block;
+    flex-direction: row;
+}
+
+#test-container > #answers{
+    margin: 0 1vw;
+    font-weight: normal;
+    font-size: 25px;
+    flex-direction: column;
+    display: flex;
+}
+
+
+.clickable-div:hover{
+    background: #f2cef5 ;
+}
+
+.clickable-div:active{
+    background: #8e8dc4;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(to top, #e2cef5, #8e8dc4 );
+    display: flexbox;
+
+}

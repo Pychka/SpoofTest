@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SpoofTestMain</title>
+    <link rel="stylesheet" href="./mainStudentStyles.css">
+</head>
+<body>
+    <header>
+        <button>Настройки</button>
+        <button onclick="showTasks()">Мои тесты</button>
+    </header>
+    <div id="main-container">
+        
+    </div>
+    <div id="test-container">
+        <h1 id="question-title"></h1>
+        <div id="answers"></div>
+        <div class="navigation">
+            <button onclick="navigation(-1)">&lt;</button>
+            <span id="min"></span>
+            <progress id="progress"></progress>
+            <span id="max"></span>
+            <button onclick="navigation(1)">></button>
+            <button id="send-button" onclick="send()" disabled>send</button>
+            <span id="timer"></span>
+        </div>
+    </div>
+        <div id="result-container">
+        <h1 id="test-title"></h1>
+        <p id="result-text"></p>
+    </div>
+    <div id="error-message">
+        <img width="20px" id="image" height="20px" src="./warning.png" alt="warning">
+        <i id="message"></i>
+    </div>
+    <script src="./answer.js"></script>
+    <script src="./question.js"></script>
+    <script src="./test.js"></script>
+    <script src="./testReply.js"></script>
+    <script src="./questionReply.js"></script>
+    <script src="./mainStudentScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+bin/
+obj/
+appsettings.*.json
+*.user
+*.aps
+*.pdb
+*.vs
+.vscode/
+launchSettings.json
+/publish/
+*.swp
+*.cache
+.DS_Store

@@ -1,0 +1,81 @@
+#error-message{
+    display: none;
+    max-width: 30%;
+    position: absolute;
+    top: 2vh;
+    left: auto;
+    padding: 1%;
+    border-radius: 2vh;
+    box-shadow: 0 0 2vh rgba(0, 0, 0, 0.5);
+}
+
+#blob-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+
+form, #question-container, #blob-container{
+    border: 0.3vh solid #eeeeee;
+    border-radius: 2vh;
+    padding: 1vh 2vw;
+    box-shadow: 0 0 1.5vh rgba(0, 0, 0, 0.5);
+    align-content: center;
+    justify-content: center;
+    height: fit-content;
+    background: linear-gradient(to top, #92cef5, #f2cef5) ;
+}
+
+form *, #blob-container *, #error-message *{
+    margin: 1vh 0.5vw;
+}
+
+#question-container{
+    display: none;
+    width: 50vw;
+}
+
+
+button{
+    background: linear-gradient(to bottom, 	#d2e3eb, #a2cef5);
+    min-width: 25%;
+    display: block;
+    padding: 0.5vh 0.5vw;
+    margin-left: auto;
+}
+
+input::placeholder{
+    color: #8e8dc4
+}
+
+input{
+    display: block;
+    background: linear-gradient(to bottom, #e2cef5, #c9a4d7);
+    padding: 0.5vh 1vw;
+    color: #f9feff;
+}
+
+button, input{
+    border: 0.2vh solid #f1fafb;
+    border-radius: 1vw;
+    font-size: 3vh;
+}
+
+button:hover, input:hover{
+    background: #d2cef5;
+}
+
+button:active, input:focus{
+    background: #c9a4d7;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(to top, #e2cef5, #8e8dc4 );
+}

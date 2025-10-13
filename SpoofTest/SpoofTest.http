@@ -1,0 +1,6 @@
+@SpoofTest_HostAddress = http://localhost:5259
+
+GET {{SpoofTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
